@@ -1,0 +1,31 @@
+
+PS C:\Users\yourUser> choco install gh
+
+/*Output After Command
+Chocolatey v1.2.1
+Installing the following packages:
+gh
+By installing, you accept licenses for the packages.
+Progress: Downloading gh 2.23.0... 100%
+
+gh v2.23.0 [Approved]
+gh package files install completed. Performing other installation steps.
+The package gh wants to run 'chocolateyInstall.ps1'.
+Note: If you don't run this script, the installation will fail.
+Note: To confirm automatically next time, use '-y' or consider:
+choco feature enable -n allowGlobalConfirmation*/
+
+Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint): Y
+
+/* After Acepting to install gh
+Installing 64-bit gh...
+gh has been installed.
+  gh may be able to be automatically uninstalled.
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+ The install of gh was successful.
+  Software installed as 'MSI', install location is likely default.
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).*/
+PS C:\Users\yourUser>
